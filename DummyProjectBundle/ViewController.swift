@@ -11,7 +11,7 @@ import UIKit
 
 class ViewController: UIViewController /*, WKUIDelegate */ {
     var lightOn = true
-    
+    var WTF: Int!
     @IBOutlet var mainView: UIView!
     
     @IBAction func changeLabel(_ sender: Any) {
